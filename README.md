@@ -4,6 +4,7 @@
 
   Create a registration form, using HTML for opening an email account with an organisation.
   The form asks for the following information:
+  
       ⋅⋅* Proposed email id (it can be of the type xxxx@abc.in)
       ⋅⋅* Proposed password (should have a minimum size of 6 characters)
       ⋅⋅* Name of the person requesting for email account
@@ -12,6 +13,7 @@
       ⋅⋅* desired email services, which can be selected from "Basic Service" or "Advanced
          Service".
       ⋅⋅* The form should include a SUBMIT button.
+      
   You must also create a CSS file for this form. This CSS file should define font family; a font
   size of 16 points for headings, and font size of 12 points for normal text; font colour should
   be dark green for the headings and dark blue for normal text. The background colour of the
