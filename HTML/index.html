@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <div id="regstration">
+        <div class="headline">
+            <h1>Create Your Email Account</h1>
+        </div>
+        <form name="myform" id="myform" method="post" action="" class="form"">
+            <!--Frist Name-->
+            <div class="form-control">
+                <input type="text" name="fname" placeholder="Frist Name" value="" id="fname"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <!--Last Name-->
+            <div class="form-control">
+                <input type="text" name="lname"  placeholder="Last Name" value=""  id="lname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <!--Email Address-->
+            <div class="form-control form-control-gmail">
+                <input type="text" name="username"  placeholder="@gmail.com" value=""  id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <!--Password-->
+            <div class="form-control">
+                <input type="password" name="password1"  placeholder="Password" value=""  id="password1" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <!--Confirm Password-->
+            <div class="form-control">
+                <input type="password" name="password2"  placeholder="Confirm Password" value=""  id="password2" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <!--Showing Password-->
+            <!-- <div class="form-control">
+                <input type="checkbox" name="showpasswords" id="showpasswords" />
+            </div> -->
+            <!--Select The City-->
+            <div class="form-control">
+                <select id="options1">
+                    <option>Select City</option>
+                    <option>Kolkata</option>
+                    <option>Jaipur</option>
+                    <option>Siliguri</option>
+                    <option>Bengaluru</option>
+                    <option>Chennai</option>
+                    <option>New Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Hyderabad</option>
+                </select>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <!--Automatically Select The State based on City-->
+            <div class="form-control">
+                <select >
+                    <option id="state"></option>
+                </select>
+            </div>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+    <script src="../JS/index.js"></script>
+</body>
+</html>

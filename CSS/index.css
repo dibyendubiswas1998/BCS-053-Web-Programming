@@ -1,0 +1,105 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#regstration{
+    height: 600px;
+    width: 700px;
+    background-color: grey;
+    margin-left: 22%;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.headline {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.headline h1{
+    text-align: center;
+    padding-top: 3%;
+    letter-spacing: 2px;
+}
+.form-control{
+    height: 50px;
+    width: 40%;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-left: 6.2%;
+    float: left;
+    position: relative;
+}
+.form-control-gmail{
+    width: 86.4%;
+}
+.form-control input{
+    width: 100%;
+    height: 55%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 12px;
+    letter-spacing: 1.7px;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: darkblue;
+}
+.form-control select{
+    width: 100%;
+    height: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 12px;
+    cursor: pointer;
+}
+.form-control small{
+    color: rgb(250, 154, 154);
+    letter-spacing: 1.7px;
+    font-size: 12px;
+    visibility: hidden;
+}
+.form-control.error small{
+    color: rgb(243, 128, 128);
+    visibility: visible;
+}
+.form-control i{
+    position: absolute;
+    top: 18%;
+    right: 7%;
+    color: red;
+    font-size: 12px;
+    visibility: hidden;
+}
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle {
+	color: #ff1900;
+	visibility: visible;
+}
+
+#btn{
+    position: absolute;
+    bottom: 15%;
+    left: 6.2%;
+    width: 20%;
+    height: 7%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:antiquewhite ;
+}
